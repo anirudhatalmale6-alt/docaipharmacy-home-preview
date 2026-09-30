@@ -181,7 +181,7 @@ button{font:inherit;cursor:pointer;border:0;background:none;color:inherit}
 .b4{background:linear-gradient(135deg,#FDF1EC,#FEF8F5);border-color:#F6DFD6}
 
 /* ---------- how it works ---------- */
-.how{background:#fff;border:1px solid var(--line);border-radius:var(--r);padding:16px;display:grid;grid-template-columns:repeat(4,1fr) auto;gap:12px;align-items:center}
+.how{background:#fff;border:1px solid var(--line);border-radius:var(--r);padding:16px;display:grid;grid-template-columns:repeat(4,1fr);gap:16px;align-items:start}
 .step{display:flex;gap:10px;align-items:flex-start}
 .snum{width:24px;height:24px;border-radius:50%;background:var(--blue);color:#fff;font-size:12px;font-weight:700;display:grid;place-items:center;flex:0 0 24px}
 .step b{font-size:12.8px;display:block}
@@ -219,7 +219,7 @@ button{font:inherit;cursor:pointer;border:0;background:none;color:inherit}
 .brands .more{flex:0 0 auto;margin-left:auto;padding-left:10px}
 
 /* ---------- three col ---------- */
-.three{display:grid;grid-template-columns:1fr 1fr 1fr;gap:12px;align-items:start}
+.three{display:grid;grid-template-columns:1fr 1fr;gap:12px;align-items:start}
 .panel{background:#fff;border:1px solid var(--line);border-radius:var(--r);padding:14px}
 .panel h3{margin:0 0 3px;font-size:14.5px;font-weight:750;color:var(--navy)}
 .panel .ph{font-size:11.5px;color:var(--muted);margin:0 0 11px}
@@ -285,7 +285,6 @@ button{font:inherit;cursor:pointer;border:0;background:none;color:inherit}
   .strip{grid-template-columns:repeat(3,1fr)}
   .ftr-grid{grid-template-columns:1fr 1fr 1fr;gap:18px}
   .how{grid-template-columns:repeat(2,1fr)}
-  .howtrust{grid-column:1/-1}
 }
 @media (max-width:900px){
   .mainnav{display:none}
@@ -505,7 +504,6 @@ button{font:inherit;cursor:pointer;border:0;background:none;color:inherit}
       <div class="wrow"><span class="wic w2"><svg><use href="#i-shield"/></svg></span><span><b>Licensed &amp; Verified Pharmacy</b><span>All medications from certified U.S. pharmacies</span></span></div>
       <div class="wrow"><span class="wic w3"><svg><use href="#i-truck"/></svg></span><span><b>Fast &amp; Discreet Delivery</b><span>Quick, reliable shipping to your doorstep</span></span></div>
       <div class="wrow"><span class="wic w4"><svg><use href="#i-lock"/></svg></span><span><b>Secure &amp; Private</b><span>Your health data is encrypted and never shared</span></span></div>
-      <div class="trusted"><svg><use href="#i-users"/></svg> Trusted by <b style="margin:0 3px">[customer count]</b> customers</div>
     </div>
 
   </div>
@@ -626,7 +624,6 @@ button{font:inherit;cursor:pointer;border:0;background:none;color:inherit}
     <div class="step"><span class="snum">2</span><span><b>Get personalized guidance</b><span>AI checks for interactions and safety</span></span></div>
     <div class="step"><span class="snum">3</span><span><b>Choose &amp; order</b><span>Review options and add to cart</span></span></div>
     <div class="step"><span class="snum">4</span><span><b>Fast, discreet delivery</b><span>Get your products at your door</span></span></div>
-    <div class="howtrust"><b>[customer count] customers</b><span>trust DocAiPharmacy</span></div>
   </div>
 </div></section>
 
@@ -688,19 +685,6 @@ button{font:inherit;cursor:pointer;border:0;background:none;color:inherit}
 <!-- ============ THREE COLUMNS ============ -->
 <section class="sec" style="padding-top:0"><div class="wrap">
   <div class="three">
-
-    <div class="panel">
-      <h3>Real Stories, Real Results</h3>
-      <p class="ph">See what our customers are saying</p>
-      <div class="quote">
-        <div class="qimg"><svg viewBox="0 0 74 74" width="74" height="74"><rect width="74" height="74" fill="#E9F3FA"/><circle cx="37" cy="28" r="12" fill="#F3C9A6"/><path d="M25 19c0-7 5.4-11 12-11s12 4 12 11c0 2-1 3-1.6 2.2C45.6 19 44 17 44 17s-4 3-11 3c-2 0-3.6 1-4.4 2.4-.5 1-1 1.6-1.6 1.6-.8 0-1.4-2.4-1.4-5z" fill="#54341F"/><path d="M37 42c11 0 19 6.6 19 15.4V74H18V57.4C18 48.6 26 42 37 42z" fill="#CFE6F5"/></svg></div>
-        <div>
-          <p>"[Customer testimonial goes here once you have real reviews.]"</p>
-          <div class="qwho"><b>[Name]</b> <svg><use href="#i-check"/></svg> Verified Customer</div>
-          <div class="stars" style="margin-top:6px"><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg></div>
-        </div>
-      </div>
-    </div>
 
     <div class="panel">
       <h3>Health Tips &amp; Resources</h3>
